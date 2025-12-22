@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sarah Johnson",
+    designation: "Chief Strategy Officer @TechGrowth Inc",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The AI-powered market insights have transformed how we approach strategic planning. We've identified three new market opportunities that we completely missed with traditional research methods.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Michael Chen",
+    designation: "Head of Research @GlobalMarkets LLC",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The predictive analytics feature alone has given us a 40% improvement in forecasting accuracy. Our team now spends less time on data collection and more time on strategic analysis.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
-  {
+ {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Dr. Emily Rodriguez",
+    designation: "Director of Market Intelligence @InnovateCorp",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The competitive intelligence dashboard has become our go-to tool for staying ahead. Real-time monitoring and AI-driven insights have helped us outmaneuver competitors in three key markets.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Trusted by Industry Leaders"
+          paragraph="See how leading companies leverage our AI-powered market intelligence platform to drive growth, identify opportunities, and make data-driven decisions with confidence."
           center
         />
 

@@ -8,32 +8,49 @@ const Footer = () => {
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
+            
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="/images/logo/logo.svg"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
-                </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+  <Link href="/" className="mb-8 inline-block">
+  <div className="relative"> {/* Wrapper div for positioning */}
+    <Image
+      src="/images/logo/Untitled design1.png"  
+      alt="Tatva Research Logo"
+      className="w-40 h-auto dark:hidden"
+      style={{
+        marginBottom: '-101px',
+        marginTop: '-107px',
+        width: '300px',
+        height: '276px'
+      }}
+      width={300}
+      height={276}
+    />
+    <Image
+      src="/images/logo/TATVA (10).png" 
+      alt="Tatva Research Logo"
+      className="hidden w-40 h-auto dark:block"
+      style={{
+        marginBottom: '-101px',
+        marginTop: '-107px',
+        width: '300px',
+        height: '276px'
+      }}
+      width={300}
+      height={276}
+    />
+  </div>
+</Link>
+                <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  We are dedicated to delivering intelligence through research that respects our shareholders, employees, customers, and the environment. We leverage innovative, technology-driven methods to empower decision-making and foster sustainable progress.
+                </p>
+                <p className="mb-9 text-sm italic text-body-color dark:text-body-color-dark">
+                  Uncovering Insights, Shaping the Future.
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://facebook.com"
+                    aria-label="Facebook"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -52,8 +69,8 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://twitter.com"
+                    aria-label="Twitter"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -74,24 +91,8 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
-                    aria-label="social-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    <svg
-                      width="18"
-                      height="14"
-                      viewBox="0 0 18 14"
-                      className="fill-current"
-                    >
-                      <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://linkedin.com"
+                    aria-label="LinkedIn"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -109,133 +110,207 @@ const Footer = () => {
               </div>
             </div>
 
+            {/* Our Services Column */}
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                <h2 className="mb-6 text-xl font-bold text-black dark:text-white">
+                  Our Services
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/services/market-intelligence"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Market Intelligence
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/services/analytical-reporting"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Analytical Reporting
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/services/esg-advisory"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Sustainability & ESG Advisory
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/services/strategic-consulting"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Strategic Consulting
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
+            {/* Our Values Column */}
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                <h2 className="mb-6 text-xl font-bold text-black dark:text-white">
+                  Our Values
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/about#integrity"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Integrity
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/about#innovation"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Innovation
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/about#impact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Impact
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about#trust"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Trust
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
+            {/* Connect With Us Column */}
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                <h2 className="mb-6 text-xl font-bold text-black dark:text-white">
+                  Connect With Us
                 </h2>
-                <ul>
-                  <li>
-                    <Link
-                      href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <svg
+                      className="mr-3 mt-1 h-5 w-5 text-gray-600 dark:text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      Open Support Ticket
-                    </Link>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
+                    </svg>
+                    <a
+                      href="mailto:insights@tatvaresearch.com"
+                      className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      researchtatva@gmail.com
+                    </a>
                   </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  <li className="flex items-start">
+                    <svg
+                      className="mr-3 mt-1 h-5 w-5 text-gray-600 dark:text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      Terms of Use
-                    </Link>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    <span className="text-base text-body-color dark:text-body-color-dark">
+                      Rohini, Delhi
+                    </span>
                   </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  <li className="flex items-start">
+                    <svg
+                      className="mr-3 mt-1 h-5 w-5 text-gray-600 dark:text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      About
-                    </Link>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      />
+                    </svg>
+                    <a
+                      href="tel:+916262045934"
+                      className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      +91 6262045934
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
+          {/* Divider Line */}
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          
+          {/* Bottom Copyright Section */}
           <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
-            </p>
+            <div className="flex flex-col items-center justify-between md:flex-row">
+              <p className="mb-4 text-center text-base text-body-color dark:text-white md:mb-0">
+                © {new Date().getFullYear()} Tatva Research. All rights reserved.
+              </p>
+              <div className="flex space-x-6">
+                <Link
+                  href="/privacy-policy"
+                  className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                >
+                  Privacy Policy
+                </Link>
+                <Link
+                  href="/terms-of-service"
+                  className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                >
+                  Terms of Service
+                </Link>
+                <Link
+                  href="/sitemap"
+                  className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                >
+                  Sitemap
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
+        
+        {/* Background SVG Elements */}
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
