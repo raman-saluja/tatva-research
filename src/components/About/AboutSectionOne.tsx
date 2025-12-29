@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Revolutionizing Market Research with AI."
-                paragraph="Our platform combines artificial intelligence with deep market expertise to deliver insights that drive strategic decisions. We transform complex data into clear, actionable intelligence for businesses looking to gain competitive advantage."
+                paragraph="Predictive intelligence is at the heart of our innovation. Instead of reacting to market changes, our AI systems anticipate them. From demand forecasting to consumer sentiment evolution, we empower brands to act ahead of competitors, reduce risk, and maximize return on investment. Marketing decisions are no longer based on assumptions—they are guided by data-backed foresight"
                 mb="44px"
               />
 
@@ -52,16 +52,16 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/research1.png"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0 rounded-xl"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/about/research1.png"
                   alt="about-image"
                   fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0 rounded-xl"
                 />
               </div>
             </div>

@@ -3,45 +3,47 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Advanced Survey Programming for Smarter Market Insights",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Discover how advanced survey programming techniques like adaptive logic, MaxDiff, and conjoint analysis help brands uncover deep consumer insights with speed and precision.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      name: "Research Team",
+      image: "/images/blog/author-02.png",
+      designation: "Survey Programming Experts",
     },
-    tags: ["creative"],
+    tags: ["Survey Programming"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Why Clean Data Processing Is the Backbone of Market Research",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "From raw survey responses to analysis-ready datasets, automated data processing ensures accuracy, consistency, and faster turnaround for research-driven decisions.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      name: "Data Operations",
+      image: "/images/blog/author-03.png",
+      designation: "Data Processing Specialists",
     },
-    tags: ["computer"],
+    tags: ["Data Processing"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Verbatim Coding: Turning Open-Ended Feedback into Actionable Insights",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Learn how NLP-powered verbatim coding transforms unstructured consumer feedback into meaningful themes, sentiment analysis, and market trends.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      name: "Analytics Team",
+      image: "/images/blog/author-02.png",
+      designation: "NLP & Insights Analysts",
     },
-    tags: ["design"],
+    tags: ["Verbatim Coding"],
     publishDate: "2025",
   },
+ 
 ];
+
 export default blogData;

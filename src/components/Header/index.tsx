@@ -153,10 +153,10 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 
                 <Link
-                  href="/signup"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xs px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
+                  href="/contact"
+                  className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-xl px-6 py-2 text-base font-medium text-white transition duration-300 md:block md:px-4 lg:px-5 xl:px-6"
                 >
-                  Contact Us
+                 Contact Us
                 </Link>
                 <div>
                   <ThemeToggler />

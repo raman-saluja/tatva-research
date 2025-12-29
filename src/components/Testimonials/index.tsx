@@ -8,25 +8,25 @@ const testimonialData: Testimonial[] = [
     name: "Sarah Johnson",
     designation: "Chief Strategy Officer @TechGrowth Inc",
     content:
-      "The AI-powered market insights have transformed how we approach strategic planning. We've identified three new market opportunities that we completely missed with traditional research methods.",
+      "An industry-leading platform that leverages AI brilliantly to deliver accurate, and actionable market insights.A powerful, future-ready marketing research platform setting new benchmarks in AI-driven intelligence.",
     image: "/images/testimonials/auth-01.png",
-    star: 5,
+    star: 4,
   },
   {
     id: 2,
     name: "Michael Chen",
     designation: "Head of Research @GlobalMarkets LLC",
     content:
-      "The predictive analytics feature alone has given us a 40% improvement in forecasting accuracy. Our team now spends less time on data collection and more time on strategic analysis.",
+      "Strong AI integration with valuable insights, though there is room for further refinement in usability.A competent research tool with potential, but it requires stronger AI optimization to stand out.",
     image: "/images/testimonials/auth-02.png",
-    star: 5,
+    star: 4,
   },
  {
     id: 3,
     name: "Dr. Emily Rodriguez",
     designation: "Director of Market Intelligence @InnovateCorp",
     content:
-      "The competitive intelligence dashboard has become our go-to tool for staying ahead. Real-time monitoring and AI-driven insights have helped us outmaneuver competitors in three key markets.",
+      " Real-time monitoring and AI-driven insights have helped us outmaneuver competitors in three key markets.Highly reliable, intelligently designed, and clearly built for modern, insight-driven marketing teams.”",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

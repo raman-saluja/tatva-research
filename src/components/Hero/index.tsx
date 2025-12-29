@@ -5,53 +5,71 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative overflow-hidden mt-[120px] bg-white dark:bg-gray-dark"
+        style={{ height: '500px' }}
       >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <video
+            src="/videos/bdvdo3.mp4"
+            autoPlay
+            loop
+            playsInline
+            muted
+            className="h-full w-full object-cover"
+          />
+          {/* Optional overlay to improve text readability */}
+          <div className="absolute inset-0 bg-black/40 dark:bg-black/60"></div>
+        </div>
+
+        <div className="container relative z-10 h-full flex items-center">
+          <div className="-mx-4 flex flex-wrap w-full">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  AI-Powered Market Intelligence Platform
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Real-Time Marketing Research & Intelligence
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Transform raw data into strategic insights with our cutting-edge AI research platform. 
-                  Leverage machine learning algorithms, predictive analytics, and automated research tools 
-                  to uncover market opportunities and stay ahead of the competition.
+                <p className="mb-12 text-base leading-relaxed! text-gray-200 dark:text-gray-300 sm:text-lg md:text-xl">
+                  Make confident decisions with real-time market intelligence, consumer insights,
+                  and predictive analytics. Our research platform transforms live data into
+                  actionable insights to help brands understand markets, track trends, and stay ahead.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="/ai-platform"
+                    href="/research-solutions"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🤖 Try AI Analyst
+                    📊 Explore Research Solutions
                   </Link>
                   <Link
-                    href="/solutions"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    href="/real-time-intelligence"
+                    className="inline-block rounded-xs bg-white/20 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-white/30 backdrop-blur-sm"
                   >
-                    Explore AI Solutions
+                    View Real-Time Intelligence
                   </Link>
                 </div>
-                <div className="mt-12 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-600 dark:text-gray-400">
-                  <div className="flex items-center">
-                    <span className="mr-2">🔍</span>
-                    <span>Real-time Market Monitoring</span>
+
+                <div className="mt-12 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-300 dark:text-gray-400">
+                  <div className="flex items-center rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
+                    <span className="mr-2">📡</span>
+                    <span>Live Market Signals</span>
                   </div>
-                  <div className="flex items-center">
-                    <span className="mr-2">📈</span>
-                    <span>Predictive Analytics</span>
+                  <div className="flex items-center rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
+                    <span className="mr-2">📊</span>
+                    <span>Consumer & Brand Insights</span>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
                     <span className="mr-2">🧠</span>
-                    <span>AI-Driven Insights</span>
+                    <span>Predictive & Trend Analytics</span>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* Keep the decorative SVG elements but adjust their opacity */}
+        <div className="absolute right-0 top-0 z-[-1] opacity-20 lg:opacity-30">
           <svg
             width="450"
             height="556"
@@ -189,7 +207,7 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute bottom-0 left-0 z-[-1] opacity-20 lg:opacity-30">
           <svg
             width="364"
             height="201"

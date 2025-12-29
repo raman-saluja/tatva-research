@@ -2,7 +2,9 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { SlNote } from "react-icons/sl";
+import { BsClockHistory } from "react-icons/bs";
 const Contact = () => {
   // State for form data
   const [formData, setFormData] = useState({
@@ -140,13 +142,12 @@ const Contact = () => {
               {/* Status Message */}
               {status.message && (
                 <div
-                  className={`mb-6 rounded-xs p-4 ${
-                    status.type === "success"
-                      ? "border border-green-200 bg-green-50 text-green-800"
-                      : status.type === "error"
-                        ? "border border-red-200 bg-red-50 text-red-800"
-                        : "border border-blue-200 bg-blue-50 text-blue-800"
-                  }`}
+                  className={`mb-6 rounded-xs p-4 ${status.type === "success"
+                    ? "border border-green-200 bg-green-50 text-green-800"
+                    : status.type === "error"
+                      ? "border border-red-200 bg-red-50 text-red-800"
+                      : "border border-blue-200 bg-blue-50 text-blue-800"
+                    }`}
                 >
                   <div className="flex items-center">
                     {status.type === "success" && (
@@ -270,9 +271,8 @@ const Contact = () => {
                     <button
                       type="submit"
                       disabled={isLoading}
-                      className={`bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark rounded-xs px-9 py-4 text-base font-medium text-white duration-300 ${
-                        isLoading ? "cursor-not-allowed opacity-70" : ""
-                      }`}
+                      className={`bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark rounded-xs px-9 py-4 text-base font-medium text-white duration-300 ${isLoading ? "cursor-not-allowed opacity-70" : ""
+                        }`}
                     >
                       {isLoading ? (
                         <span className="flex items-center justify-center">
@@ -398,21 +398,22 @@ const Contact = () => {
 
                 <div className="flex items-start">
                   <div className="bg-primary/10 text-primary mr-4 flex h-10 w-10 items-center justify-center rounded-full">
-                    <svg
-                      className="h-5 w-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
+                    <FaPhoneAlt />
                   </div>
                   <div>
+                    <h4 className="text-dark mb-1 font-medium dark:text-white">
+                      Phone Number
+                    </h4>
+                    <p className="text-body-color text-sm">+91-8700187929</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="bg-primary/10 text-primary mr-4 flex h-10 w-10 items-center justify-center rounded-full">
+                    <BsClockHistory />
+                  </div>
+
+                  <div>
+
                     <h4 className="text-dark mb-1 font-medium dark:text-white">
                       Response Time
                     </h4>
@@ -421,20 +422,8 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-primary/10 text-primary mr-4 flex h-10 w-10 items-center justify-center rounded-full">
-                    <svg
-                      className="h-5 w-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
+                  <div className="bg-primary/10 p-2.5 text-primary mr-4 flex h-10 w-10 items-center justify-center rounded-full">
+                    <SlNote />
                   </div>
                   <div>
                     <h4 className="text-dark mb-1 font-medium dark:text-white">
