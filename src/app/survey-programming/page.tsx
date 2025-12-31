@@ -1,13 +1,11 @@
-
-import Link from "next/link";
-
-const Hero = () => {
+const SurveyProgramming = () => {
   return (
     <>
+      {/* ================= HERO SECTION ================= */}
       <section
         id="home"
         className="relative overflow-hidden mt-[120px] bg-white dark:bg-gray-dark"
-        style={{ height: '500px' }}
+        style={{ height: "500px" }}
       >
         {/* Video Background */}
         <div className="absolute inset-0 z-0 overflow-hidden">
@@ -19,7 +17,6 @@ const Hero = () => {
             muted
             className="h-full w-full object-cover"
           />
-          {/* Optional overlay to improve text readability */}
           <div className="absolute inset-0 bg-black/40 dark:bg-black/60"></div>
         </div>
 
@@ -30,48 +27,50 @@ const Hero = () => {
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                   Survey Programming Services
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-gray-200 dark:text-gray-300 sm:text-lg md:text-xl">
-                  End-to-end survey programming solutions across leading research platforms,
-                  delivering accuracy, speed, and scalability for studies of any complexity.
+
+                <p className="mb-12 text-base leading-relaxed text-gray-200 sm:text-lg md:text-xl">
+                  Reliable, scalable, and precise survey programming solutions
+                  tailored to support global research studies of any complexity.
                 </p>
-
-
-
-
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="container my-12">
 
+      {/* ================= CONTENT SECTION ================= */}
+      <section className="container my-12 relative">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-
-          {/* Left Content */}
+          {/* LEFT CONTENT */}
           <div>
             <h2 className="text-2xl font-semibold text-black dark:text-white mb-4">
-              Comprehensive Survey Programming Expertise
+              End-to-End Survey Programming Expertise
             </h2>
-            <p className="text-body-color dark:text-body-color-dark mb-6">
-              We offer professional survey programming services across multiple platforms
-              including <strong>ConfirmIT, Nebu, Decipher</strong>, as well as
-              client-specific proprietary tools. Our experienced programmers ensure
-              seamless implementation aligned with research objectives./             </p>
 
             <p className="text-body-color dark:text-body-color-dark mb-6">
-              From simple questionnaires to highly complex studies, our team efficiently
-              handles surveys of all levels while maintaining data integrity and
-              respondent experience.
+              We deliver professional survey programming services across leading
+              research platforms including <strong>ConfirmIT, Nebu, and Decipher</strong>,
+              as well as custom client-specific and proprietary systems. Our team
+              ensures every survey is implemented accurately and aligned with
+              research objectives.
+            </p>
+
+            <p className="text-body-color dark:text-body-color-dark mb-6">
+              From straightforward questionnaires to highly complex global
+              studies, we manage all levels of survey complexity while maintaining
+              exceptional respondent experience and high data integrity.
             </p>
 
             <ul className="space-y-3 text-body-color dark:text-body-color-dark">
-              <li>✔ Low to high complexity survey programming</li>
-              <li>✔ Multi-country & multi-language surveys</li>
-              <li>✔ Custom logic, validations & quotas</li>
-              <li>✔ Mobile & desktop optimized surveys</li>
-            </ul>           </div>
+              <li>✔ Low, medium & high complexity survey programming</li>
+              <li>✔ Multi-country & multi-language survey deployment</li>
+              <li>✔ Advanced logic, validations & quota management</li>
+              <li>✔ Mobile-first, tablet & desktop optimization</li>
+              <li>✔ Rigorous testing & quality assurance</li>
+            </ul>
+          </div>
 
-          {/* Right Content */}
+          {/* RIGHT CONTENT */}
           <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8">
             <h3 className="text-xl font-semibold text-black dark:text-white mb-4">
               Advanced Research Capabilities
@@ -79,25 +78,37 @@ const Hero = () => {
 
             <ul className="space-y-4 text-body-color dark:text-body-color-dark">
               <li>
-                <strong>MaxDiff, Conjoint & Segmentation:</strong><br />
-                Expertise in programming advanced research techniques in ConfirmIT with
-                a guaranteed <strong>24-hour turnaround</strong>.
+                <strong>Advanced Research Methodologies:</strong>
+                <br />
+                Specialized expertise in programming complex studies such as
+                <strong> MaxDiff, Conjoint Analysis, Segmentation, and Ranking</strong>,
+                ensuring accurate implementation with quick turnaround times.
               </li>
 
               <li>
-                <strong>Custom Flash Tool Development:</strong><br />
-                Dedicated team to build customized Flash tools and seamlessly integrate
-                them into surveys.
+                <strong>Custom Interactive Tool Development:</strong>
+                <br />
+                Dedicated development support to build and integrate custom
+                interactive tools that enhance respondent engagement and
+                research outcomes.
               </li>
 
               <li>
-                <strong>Data Capture & Analysis Ready:</strong><br />
-                Our Flash solutions are designed to fetch respondent interactions and
-                store them directly into survey variables for accurate data analysis.
+                <strong>Data-Ready & Analysis-Friendly Output:</strong>
+                <br />
+                All survey interactions are captured cleanly and stored directly
+                into survey variables, enabling smooth and accurate downstream
+                data analysis.
+              </li>
+
+              <li>
+                <strong>Fast Turnaround & Ongoing Support:</strong>
+                <br />
+                Agile delivery models with responsive support to meet tight
+                research timelines without compromising quality.
               </li>
             </ul>
           </div>
-
         </div>
         {/* Keep the decorative SVG elements but adjust their opacity */}
         <div className="absolute right-0 top-0 z-[-1] opacity-20 lg:opacity-30">
@@ -347,4 +358,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SurveyProgramming;

@@ -15,12 +15,43 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
+    title: " Services",
+    newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "Survey Programming",
+        path: "/survey-programming",
+        newTab: false,
+      },
+      {
+        id: 32,
+        title: "Data Processing",
+        path: "/data-processing",
+        newTab: false,
+      },
+      {
+        id: 33,
+        title: "Verbatim Coding",
+        path: "/verbatim-coding",
+        newTab: false
+      },
+      {
+        id: 34,
+        title: "Charting",
+        path: "/charting",
+        newTab: false
+      }
+    ]
+  },
+  {
+    id: 4,
     title: "Blog",
     path: "/blog",
     newTab: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Support",
     path: "/contact",
     newTab: false,

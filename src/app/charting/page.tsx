@@ -25,24 +25,26 @@ const ChartingPage = () => {
         <div className="container relative z-10 h-full flex items-center">
           <div className="w-full text-center">
             <h1 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
-              Analytical & Predictive Trends
+              Analytical & Predictive Trend Intelligence
             </h1>
+
             <p className="mx-auto mb-12 max-w-4xl text-base text-gray-200 sm:text-lg md:text-xl">
-              Our Analytical and Predictive Trends framework empowers organizations
-              to move beyond observation into anticipation. By combining AI-driven
-              analytics with intelligent charting, we uncover patterns, forecast
-              outcomes, and support proactive decision-making.
+              Our analytical and predictive intelligence framework enables
+              organizations to move beyond reporting into anticipation. By
+              combining AI-driven analytics with advanced charting, we uncover
+              patterns, forecast outcomes, and support proactive, data-led
+              decision-making.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-300">
               <div className="rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
-                📡 Live Market Signals
+                📡 Real-Time Market Signals
               </div>
               <div className="rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
-                📊 Consumer & Brand Insights
+                📊 Consumer, Brand & Category Insights
               </div>
               <div className="rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
-                🧠 Predictive & Trend Analytics
+                🧠 Predictive & Trend Modeling
               </div>
             </div>
           </div>
@@ -57,25 +59,25 @@ const ChartingPage = () => {
               AI-Driven Charting & Visualization
             </h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              We use AI-powered visualization engines to transform complex datasets
-              into intuitive charts that highlight trends, relationships, and
-              opportunities with clarity and precision.
+              We leverage AI-powered visualization engines to convert complex
+              datasets into clear, intuitive charts that highlight trends,
+              relationships, and opportunities with precision.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
-                title: "Automated Chart Selection",
-                desc: "AI identifies the most effective chart types based on data structure, research goals, and audience needs.",
+                title: "Automated Chart Intelligence",
+                desc: "AI selects optimal chart types based on data structure, analytical objectives, and stakeholder needs.",
               },
               {
                 title: "Interactive Dashboards",
                 desc: "Dynamic dashboards allow users to explore trends, filter segments, and compare scenarios in real time.",
               },
               {
-                title: "Insight-Focused Design",
-                desc: "Every visualization is crafted to communicate insights clearly, not just display data.",
+                title: "Insight-First Design",
+                desc: "Every visualization is built to communicate insights clearly—focusing on meaning, not just metrics.",
               },
             ].map((item, i) => (
               <div
@@ -99,29 +101,30 @@ const ChartingPage = () => {
             <h2 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-4xl">
               Predictive Analytics & Forecasting
             </h2>
+
             <p className="mb-6 text-lg text-gray-600 dark:text-gray-300">
-              Our predictive analytics models combine historical data, real-time
-              market signals, and machine learning algorithms to forecast trends
-              and outcomes before they fully emerge.
+              Our predictive analytics models integrate historical data,
+              real-time signals, and machine learning algorithms to anticipate
+              trends, risks, and opportunities before they fully emerge.
             </p>
 
             <ul className="space-y-4 text-gray-600 dark:text-gray-300">
-              <li>• Market trend and demand forecasting</li>
+              <li>• Market demand and trend forecasting</li>
               <li>• Consumer behavior and preference prediction</li>
               <li>• Brand performance and share modeling</li>
-              <li>• Scenario analysis and risk assessment</li>
-              <li>• Strategic opportunity identification</li>
+              <li>• Scenario planning and risk assessment</li>
+              <li>• Opportunity and growth identification</li>
             </ul>
           </div>
 
           <div className="rounded-2xl bg-white dark:bg-white/5 p-10 shadow-md">
             <h3 className="mb-4 text-xl font-semibold text-black dark:text-white">
-              Why Predictive Charting Matters
+              Why Predictive Visualization Matters
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Predictive charts enable organizations to visualize future
-              possibilities, supporting proactive planning and faster, more
-              confident strategic decisions.
+              Predictive visualizations help organizations see potential futures,
+              enabling proactive planning, faster alignment, and confident
+              strategic decision-making.
             </p>
           </div>
         </div>
@@ -132,19 +135,19 @@ const ChartingPage = () => {
         <div className="container">
           <div className="mx-auto max-w-4xl text-center mb-14">
             <h2 className="text-3xl font-bold text-black dark:text-white sm:text-4xl">
-              Tools, Technologies & Research Equipment
+              Tools, Technologies & Analytics Stack
             </h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              Our analytics ecosystem integrates advanced AI tools and
-              research-grade technologies to deliver scalable, accurate, and
-              secure insights.
+              Our analytics ecosystem combines advanced AI technologies with
+              research-grade infrastructure to deliver scalable, secure, and
+              high-impact insights.
             </p>
           </div>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
               "Machine Learning & AI Models",
-              "NLP for Text & Verbatim Analysis",
+              "Natural Language Processing (NLP)",
               "Automated Data Pipelines",
               "Enterprise Visualization Engines",
             ].map((tool, index) => (
@@ -167,10 +170,11 @@ const ChartingPage = () => {
           <h2 className="mb-6 text-3xl font-bold text-white sm:text-4xl">
             Turning Analytics Into Strategic Advantage
           </h2>
+
           <p className="mx-auto mb-10 max-w-3xl text-lg text-gray-300">
             By combining intelligent charting, AI-driven analytics, and predictive
-            modeling, we help organizations anticipate change, reduce risk, and
-            stay ahead in competitive markets.
+            modeling, we help organizations anticipate change, reduce uncertainty,
+            and stay ahead in competitive and dynamic markets.
           </p>
 
           <Link

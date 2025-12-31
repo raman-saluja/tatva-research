@@ -1,13 +1,13 @@
-
 import Link from "next/link";
 
 const Hero = () => {
   return (
     <>
+      {/* ================= HERO SECTION ================= */}
       <section
         id="home"
         className="relative overflow-hidden mt-[120px] bg-white dark:bg-gray-dark"
-        style={{ height: '500px' }}
+        style={{ height: "500px" }}
       >
         {/* Video Background */}
         <div className="absolute inset-0 z-0 overflow-hidden">
@@ -19,7 +19,6 @@ const Hero = () => {
             muted
             className="h-full w-full object-cover"
           />
-          {/* Optional overlay to improve text readability */}
           <div className="absolute inset-0 bg-black/40 dark:bg-black/60"></div>
         </div>
 
@@ -28,52 +27,74 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                  Verbatim coding
+                  Verbatim Coding
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-gray-200 dark:text-gray-300 sm:text-lg md:text-xl">
-                  Our verbatim coding delivers structured, reliable, and insight-ready
-                  qualitative data that integrates seamlessly with quantitative
-                  analysis—helping research teams uncover deeper insights and make
-                  informed strategic decisions.
+
+                <p className="mb-12 text-base leading-relaxed text-gray-200 sm:text-lg md:text-xl">
+                  Our verbatim coding services transform open-ended survey responses
+                  into structured, reliable, and insight-ready qualitative data that
+                  integrates seamlessly with quantitative analysis—empowering research
+                  teams to make confident, evidence-based decisions.
                 </p>
-
-
-
-
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="container my-12">
 
+      {/* ================= CONTENT SECTION ================= */}
+      <section className="container my-12 relative">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-
-          {/* Left Content */}
+          {/* LEFT CONTENT */}
           <div>
             <h2 className="text-2xl font-semibold text-black dark:text-white mb-4">
               Our Verbatim Coding Approach
             </h2>
-            <p className="text-body-color dark:text-body-color-dark mb-6">
-              Effective verbatim coding enhances the value of qualitative data by:        </p>
 
+            <p className="text-body-color dark:text-body-color-dark mb-6">
+              Our structured verbatim coding approach ensures that open-ended
+              responses are analyzed consistently and objectively while preserving
+              the true voice of the respondent.
+            </p>
+
+            <ul className="space-y-3 text-body-color dark:text-body-color-dark mb-6">
+              <li>✔ Capturing the authentic voice of the customer</li>
+              <li>✔ Revealing key drivers behind attitudes, behaviors, and preferences</li>
+              <li>✔ Identifying emerging themes, pain points, and unmet needs</li>
+              <li>✔ Supporting accurate segmentation and profiling</li>
+            </ul>
+
+            <p className="text-body-color dark:text-body-color-dark mb-6">
+              We follow a rigorous coding framework combining manual expertise with
+              AI-assisted techniques, ensuring scalability without compromising
+              accuracy or consistency.
+            </p>
 
             <ul className="space-y-3 text-body-color dark:text-body-color-dark">
-              <li>Capturing the authentic voice of the customer</li>
-              <li>Revealing key drivers behind attitudes, behaviors, and preferences</li>
-              <li>Identifying emerging themes and unmet needs</li>
-              <li>Supporting accurate segmentation and profiling</li>
-            </ul>           </div>
+              <li>✔ Development of customized and client-approved codeframes</li>
+              <li>✔ Multi-level quality checks and inter-coder reliability</li>
+              <li>✔ Support for multi-language and multi-market studies</li>
+              <li>✔ Seamless integration with survey data and reporting outputs</li>
+            </ul>
+          </div>
 
-          {/* Right Content */}
+          {/* RIGHT CONTENT */}
           <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8">
             <h3 className="text-xl font-semibold text-black dark:text-white mb-4">
               Results You Can Rely On
             </h3>
 
-            <p>With our verbatim coding expertise, open-ended feedback becomes a powerful source of insight rather than a processing challenge. The result is reliable, consistent, and insight-rich qualitative data that strengthens research outcomes and drives informed business strategies.</p>
-          </div>
+            <p className="text-body-color dark:text-body-color-dark mb-4">
+              With our verbatim coding expertise, open-ended feedback becomes a
+              powerful source of insight rather than a processing challenge.
+            </p>
 
+            <p className="text-body-color dark:text-body-color-dark">
+              The outcome is reliable, consistent, and insight-rich qualitative data
+              that strengthens research findings, enhances storytelling, and drives
+              informed business and strategic decisions across markets.
+            </p>
+          </div>
         </div>
         {/* Keep the decorative SVG elements but adjust their opacity */}
         <div className="absolute right-0 top-0 z-[-1] opacity-20 lg:opacity-30">

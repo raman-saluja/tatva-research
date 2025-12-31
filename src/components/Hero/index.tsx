@@ -5,8 +5,8 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative overflow-hidden mt-[120px] bg-white dark:bg-gray-dark"
-        style={{ height: '500px' }}
+        className="relative overflow-hidden mt-[100px] dark:mt-[0px]  bg-white dark:bg-gray-dark"
+        style={{ height: '580px' }}
       >
         {/* Video Background */}
         <div className="absolute inset-0 z-0 overflow-hidden">
@@ -23,18 +23,18 @@ const Hero = () => {
         </div>
 
         <div className="container relative z-10 h-full flex items-center">
-          <div className="-mx-4 flex flex-wrap w-full">
+          <div className="-mx-4 mt-14 flex flex-wrap w-full">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="mb-4 sm:mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Real-Time Marketing Research & Intelligence
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-gray-200 dark:text-gray-300 sm:text-lg md:text-xl">
+                <p className="mb-8 sm:mb-12 text-base leading-relaxed! text-gray-200 dark:text-gray-300 sm:text-lg md:text-xl">
                   Make confident decisions with real-time market intelligence, consumer insights,
                   and predictive analytics. Our research platform transforms live data into
                   actionable insights to help brands understand markets, track trends, and stay ahead.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/research-solutions"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -47,9 +47,9 @@ const Hero = () => {
                   >
                     View Real-Time Intelligence
                   </Link>
-                </div>
+                </div> */}
 
-                <div className="mt-12 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-300 dark:text-gray-400">
+                <div className="mt-8 sm:mt-12 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-300 dark:text-gray-400">
                   <div className="flex items-center rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
                     <span className="mr-2">📡</span>
                     <span>Live Market Signals</span>

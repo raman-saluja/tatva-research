@@ -1,13 +1,13 @@
-
 import Link from "next/link";
 
 const Hero = () => {
   return (
     <>
+      {/* ================= HERO SECTION ================= */}
       <section
         id="home"
         className="relative overflow-hidden mt-[120px] bg-white dark:bg-gray-dark"
-        style={{ height: '500px' }}
+        style={{ height: "500px" }}
       >
         {/* Video Background */}
         <div className="absolute inset-0 z-0 overflow-hidden">
@@ -19,7 +19,6 @@ const Hero = () => {
             muted
             className="h-full w-full object-cover"
           />
-          {/* Optional overlay to improve text readability */}
           <div className="absolute inset-0 bg-black/40 dark:bg-black/60"></div>
         </div>
 
@@ -28,75 +27,93 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                 Data Processing
+                  Data Processing
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-gray-200 dark:text-gray-300 sm:text-lg md:text-xl">
-      Our data processing services are designed to convert unstructured and raw survey responses into accurate, reliable, and analysis-ready datasets. Using automated and quality-driven pipelines, we ensure every data point is cleaned, coded, and validated to deliver meaningful insights that support confident business decisions.
-                </p>
 
+                <p className="mb-12 text-base leading-relaxed text-gray-200 sm:text-lg md:text-xl">
+                  Our data processing services transform raw and unstructured survey
+                  responses into clean, reliable, and analysis-ready datasets. Through
+                  automated workflows and strict quality checks, we ensure accuracy,
+                  consistency, and confidence in every data point.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="container my-12">
 
+      {/* ================= CONTENT SECTION ================= */}
+      <section className="container my-12 relative">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-
-          {/* Left Content */}
+          {/* LEFT CONTENT */}
           <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8">
             <h2 className="text-2xl font-semibold text-black dark:text-white mb-4">
-              Our Features
+              Our Data Processing Capabilities
             </h2>
-            <p className="text-body-color dark:text-body-color-dark mb-6">
-             ility, and consistency across datasets.</p>
 
             <p className="text-body-color dark:text-body-color-dark mb-6">
-              From simple questionnaires to highly complex studies, our team efficiently
-              handles surveys of all levels while maintaining data integrity and
-              respondent experience.
+              We deliver comprehensive data processing solutions designed to
+              ensure accuracy, reliability, and consistency across datasets,
+              enabling faster insights and better decision-making.
             </p>
 
-            <ul className="space-y-3 text-body-color dark:text-body-color-dark">
-              <li className="font-semibold text-gray-200">Data cleaning & Validation</li>
-              <p>Removal of inconsistencies, duplicates, and incomplete responses to ensure high-quality data integrity.</p>
-              <li className="font-semibold text-gray-200">Open Ended Coding</li>
-              <p>Structured coding of verbatim responses using industry-standard classification frameworks and AI-assisted techniques.</p>
-              <li className="font-semibold text-gray-200">Data Structuring & Formatting</li>
-              <p>Transformation of raw survey data into well-organized formats compatible with analytical and visualization tools.</p>
-             
-            </ul>           </div>
+            <p className="text-body-color dark:text-body-color-dark mb-6">
+              From simple survey datasets to large-scale, multi-country research
+              projects, our team efficiently manages all levels of complexity while
+              adhering to global data quality standards.
+            </p>
 
-          {/* Right Content */}
-          <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8">
-            <h2 className="text-xl font-semibold text-black dark:text-white mb-4">
-              Advanced Research Capabilities
-            </h2>
-
-            <ul className="space-y-4 text-body-color dark:text-body-color-dark">
+            <ul className="space-y-6 text-body-color dark:text-body-color-dark">
               <li>
-                Precise measurement of market trends
+                <p className="font-semibold text-gray-200">
+                  Data Cleaning & Validation
+                </p>
+                <p>
+                  Identification and removal of inconsistencies, duplicates, outliers,
+                  and incomplete responses to ensure high-quality, reliable datasets.
+                </p>
               </li>
 
               <li>
-               Clear identification of consumer segments
+                <p className="font-semibold text-gray-200">
+                  Open-Ended Coding
+                </p>
+                <p>
+                  Structured coding of verbatim responses using industry-standard
+                  codeframes and AI-assisted techniques to unlock qualitative insights.
+                </p>
               </li>
 
               <li>
-              Consistent competitive benchmarking
+                <p className="font-semibold text-gray-200">
+                  Data Structuring & Formatting
+                </p>
+                <p>
+                  Transformation of raw data into well-organized formats compatible
+                  with analytical, visualization, and reporting tools.
+                </p>
               </li>
-           
-            <li>Faster turnaround times without compromising accuracy</li>
-            <li>Improved decision-making confidence</li>
-            <li>Compliance with global research and data quality standards</li>
-            <li>Enhanced cross-market and longitudinal comparisons</li>
-            <li>Reliable foundations for predictive and advanced analytics</li>
-            <li>Better utilization of open-ended and qualitative data</li>
-            <li>Enhanced cross-market and longitudinal comparisons</li>
-            <li>Faster turnaround times without compromising accuracy</li>
-             </ul>
+            </ul>
           </div>
 
+          {/* RIGHT CONTENT */}
+          <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8">
+            <h2 className="text-xl font-semibold text-black dark:text-white mb-4">
+              Business & Research Impact
+            </h2>
+
+            <ul className="space-y-3 text-body-color dark:text-body-color-dark">
+              <li>✔ Precise measurement of market trends and patterns</li>
+              <li>✔ Clear identification of consumer segments</li>
+              <li>✔ Consistent and reliable competitive benchmarking</li>
+              <li>✔ Faster turnaround times without compromising accuracy</li>
+              <li>✔ Improved confidence in data-driven decision-making</li>
+              <li>✔ Compliance with global research and data quality standards</li>
+              <li>✔ Enhanced cross-market and longitudinal comparisons</li>
+              <li>✔ Strong foundation for predictive and advanced analytics</li>
+              <li>✔ Better utilization of qualitative and open-ended data</li>
+            </ul>
+          </div>
         </div>
         {/* Keep the decorative SVG elements but adjust their opacity */}
         <div className="absolute right-0 top-0 z-[-1] opacity-20 lg:opacity-30">

@@ -33,7 +33,7 @@ const brandsData: Brand[] = [
     id: 5,
     name: "Ipsos",
     href: "https://plainadmin.com",
-    image: "/images/brands/ipsos.png",
+    image: "/images/brands/ipsos-photoroom.png",
     imageLight: "/images/brands/ipsosdark.png",
   },
 ];

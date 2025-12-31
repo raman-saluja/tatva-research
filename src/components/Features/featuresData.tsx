@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
     title: "Data Processing.",
     paragraph:
       "Implement automated data processing pipelines to clean, code, and structure survey responses. This transforms raw data into a pristine, analysis-ready dataset, enabling the precise measurement of market trends, consumer segments, and competitive benchmarks with speed and reliability.",
-    path: "/dataprocessing"
+    path: "/data-processing"
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const featuresData: Feature[] = [
     title: "Verbatim Coding",
     paragraph:
       "Leverage advanced natural language processing (NLP) and machine learning algorithms to automate the thematic coding of open-ended verbatim responses. This delivers unprecedented speed and consistency in quantifying consumer sentiment, identifying emerging market trends, and uncovering nuanced competitive perceptions from unstructured text data.",
-    path: "/verbatimcoding"
+    path: "/verbatim-coding"
   },
   {
     id: 4,

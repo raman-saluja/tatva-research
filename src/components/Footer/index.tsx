@@ -8,39 +8,39 @@ const Footer = () => {
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            
+
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-  <Link href="/" className="mb-8 inline-block">
-  <div className="relative"> {/* Wrapper div for positioning */}
-    <Image
-      src="/images/logo/Untitled design1.png"  
-      alt="Tatva Research Logo"
-      className="w-40 h-auto dark:hidden"
-      style={{
-        marginBottom: '-101px',
-        marginTop: '-107px',
-        width: '300px',
-        height: '276px'
-      }}
-      width={300}
-      height={276}
-    />
-    <Image
-      src="/images/logo/TATVA (10).png" 
-      alt="Tatva Research Logo"
-      className="hidden w-40 h-auto dark:block"
-      style={{
-        marginBottom: '-101px',
-        marginTop: '-107px',
-        width: '300px',
-        height: '276px'
-      }}
-      width={300}
-      height={276}
-    />
-  </div>
-</Link>
+                <Link href="/" className="mb-8 inline-block">
+                  <div className="relative"> {/* Wrapper div for positioning */}
+                    <Image
+                      src="/images/logo/Untitled design1.png"
+                      alt="Tatva Research Logo"
+                      className="w-40 h-auto dark:hidden"
+                      style={{
+                        marginBottom: '-101px',
+                        marginTop: '-107px',
+                        width: '300px',
+                        height: '276px'
+                      }}
+                      width={300}
+                      height={276}
+                    />
+                    <Image
+                      src="/images/logo/TATVA (10).png"
+                      alt="Tatva Research Logo"
+                      className="hidden w-40 h-auto dark:block"
+                      style={{
+                        marginBottom: '-101px',
+                        marginTop: '-107px',
+                        width: '300px',
+                        height: '276px'
+                      }}
+                      width={300}
+                      height={276}
+                    />
+                  </div>
+                </Link>
                 <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   We are dedicated to delivering intelligence through research that respects our shareholders, employees, customers, and the environment. We leverage innovative, technology-driven methods to empower decision-making and foster sustainable progress.
                 </p>
@@ -119,34 +119,34 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/services/market-intelligence"
+                      href="/survey-programming"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Market Intelligence
+                      Survey Programming
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/analytical-reporting"
+                      href="/data-processing"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Analytical Reporting
+                      Data Processing
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/esg-advisory"
+                      href="/verbatim-coding"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Sustainability & ESG Advisory
+                      Verbatim Coding
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/strategic-consulting"
+                      href="/charting"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Strategic Consulting
+                      Charting
                     </Link>
                   </li>
                 </ul>
@@ -279,7 +279,7 @@ const Footer = () => {
 
           {/* Divider Line */}
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          
+
           {/* Bottom Copyright Section */}
           <div className="py-8">
             <div className="flex flex-col items-center justify-between md:flex-row">
@@ -309,7 +309,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Background SVG Elements */}
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
